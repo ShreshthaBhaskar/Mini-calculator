@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <p id="head">Mini calculator</p>
+        <div class="inputbox">
+            <label for="f1">Enter frist number</label>
+            <input type="text" id="f1">
+            <label for="f2">Enter second number</label>
+            <input type="text" id="f2">
+            <label for="f3">Enter your choice</label>
+            <input type="text" id="f3"> 
+        </div>
+        <div class="button">
+            <button type="submit" id="f4" onclick="calculation()">Calculate</button>
+            <button type="submit" id="f4" onclick="Reset()">Reset</button>
+        </div>
+        <div class="answer">
+            <label for="answer">Answer</label>
+            <input type="text" id="answer">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

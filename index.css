@@ -1,0 +1,36 @@
+body{
+    background-color: greenyellow;
+}
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width:60% ;
+}
+#head{
+    font-size: 40px;
+    font-weight: bold;
+    color: greenyellow;
+}
+.inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+#f4{
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+}
+.answer{
+    margin-top: 20px;
+}
+input{
+    width: 10%;
+    text-align: center;
+}
+#answer{
+    width: 30%;
+}
